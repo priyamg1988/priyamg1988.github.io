@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        header, section, footer {
+            width: 80%;
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Web Resume</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is the about me section where you can introduce yourself.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>This is the projects section where you can showcase your work.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>This is the contact section where you can provide your contact details.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Web Resume</p>
+    </footer>
+    <!-- Chatbot integration -->
+    <div id="chatbot"></div>
+    <script src="chatbot.js"></script>
+</body>
+</html>
